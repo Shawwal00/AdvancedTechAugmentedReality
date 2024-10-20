@@ -1,5 +1,0 @@
-C:/Projects/Unity/AdvancedTechAugmentedReality/.utmp/Debug/3j2d292i/arm64-v8a/CMakeFiles/edit_cache.dir
-C:/Projects/Unity/AdvancedTechAugmentedReality/.utmp/Debug/3j2d292i/arm64-v8a/CMakeFiles/rebuild_cache.dir
-C:/Projects/Unity/AdvancedTechAugmentedReality/.utmp/Debug/3j2d292i/arm64-v8a/GameActivity/CMakeFiles/game.dir
-C:/Projects/Unity/AdvancedTechAugmentedReality/.utmp/Debug/3j2d292i/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
-C:/Projects/Unity/AdvancedTechAugmentedReality/.utmp/Debug/3j2d292i/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir

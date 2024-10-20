@@ -1,0 +1,5 @@
+C:/Projects/Unity/New AR/.utmp/Debug/p4y26641/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Projects/Unity/New AR/.utmp/Debug/p4y26641/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Projects/Unity/New AR/.utmp/Debug/p4y26641/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/Projects/Unity/New AR/.utmp/Debug/p4y26641/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/Projects/Unity/New AR/.utmp/Debug/p4y26641/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir

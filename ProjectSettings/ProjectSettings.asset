@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 27
-  productGUID: c0d746b1ee605d544b745eaca9fa8ace
+  productGUID: 4422c7eb294205e428bcb110b672221b
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: ' Advanced Tech'
-  productName: Advanced Tech
+  companyName: DefaultCompany
+  productName: New AR
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -160,15 +160,14 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   androidMinAspectRatio: 1
   applicationIdentifier:
-    Android: com.Advanced.AdvancedTech
+    Android: com.DefaultCompany.NewAR
     Standalone: com.DefaultCompany.com.unity.template.ar
-    iPhone: com.-Advanced-Tech.Advanced-Tech
   buildNumber:
     Bratwurst: 0
     Standalone: 0
     iPhone: 0
     tvOS: 0
-  overrideDefaultApplicationIdentifier: 1
+  overrideDefaultApplicationIdentifier: 0
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 24
   AndroidTargetSdkVersion: 0
@@ -839,16 +838,16 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Test
+  metroPackageName: NewAR
   metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Test
+  metroApplicationDescription: New AR
   wsaImages: {}
-  metroTileShortName: Test
+  metroTileShortName: New AR
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
@@ -918,10 +917,10 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: aa15c601-fdfb-482e-b42e-fa0ee6067e00
+  cloudProjectId: a3f4b493-211d-4d58-8930-a3b87d9f0515
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Test
+  projectName: New AR
   organizationId: shahidshawwal
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
