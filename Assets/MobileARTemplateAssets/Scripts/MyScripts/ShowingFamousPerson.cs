@@ -9,15 +9,17 @@ using EnhancedTouch = UnityEngine.InputSystem.EnhancedTouch;
 public class ShowingFamousPerson : MonoBehaviour
 {
     private bool hasSelected = false;
-    private enum currentSelected {WinstonChurchill}
+    private enum currentSelected {WinstonChurchill, None}
 
     private ARRaycastManager raycastManager;
     private ARPlaneManager planeManager;
 
-   private currentSelected thisCurrentSelected;
+   private currentSelected thisCurrentSelected = currentSelected.None;
 
     [SerializeField] public GameObject winstonChurchillButton;
     [SerializeField] public GameObject winstonChurchill;
+
+    [SerializeField] public GameObject historyGui;
 
     private List<ARRaycastHit> hits = new List<ARRaycastHit>();
 
@@ -35,14 +37,14 @@ public class ShowingFamousPerson : MonoBehaviour
     {
         EnhancedTouch.TouchSimulation.Enable();
         EnhancedTouch.EnhancedTouchSupport.Enable();
-        EnhancedTouch.Touch.onFingerDown += FingerDown;
+        EnhancedTouch.Touch.onFingerUp += FingerDown;
     }
 
     private void OnDisable()
     {
         EnhancedTouch.TouchSimulation.Disable();
         EnhancedTouch.EnhancedTouchSupport.Disable();
-        EnhancedTouch.Touch.onFingerDown -= FingerDown; 
+        EnhancedTouch.Touch.onFingerUp -= FingerDown; 
     }
 
     private void FingerDown(EnhancedTouch.Finger finger)
@@ -52,8 +54,26 @@ public class ShowingFamousPerson : MonoBehaviour
         {
             foreach (ARRaycastHit hit in hits)
             {
-                Pose pose = hit.pose;
-                GameObject obj = Instantiate(winstonChurchill, pose.position, pose.rotation);
+                Debug.Log(thisCurrentSelected);
+                if (hasSelected == false & thisCurrentSelected == currentSelected.WinstonChurchill)
+                {
+                    Pose pose = hit.pose;
+                    GameObject obj = Instantiate(winstonChurchill, pose.position, pose.rotation);
+                    hasSelected = true;
+                }
+                else if (hasSelected == true)
+                {
+                    if (historyGui.activeSelf == false)
+                    {
+                        Debug.Log(hit);
+                        historyGui.SetActive(true);
+                    }
+
+                    else if (historyGui.activeSelf == true)
+                    {
+                        historyGui.SetActive(false);
+                    }
+                }
             }
         }
     }
@@ -67,6 +87,7 @@ public class ShowingFamousPerson : MonoBehaviour
 
     void ChangedToChurchill()
     {
+        Debug.Log("This happend");
         thisCurrentSelected = currentSelected.WinstonChurchill;
     }
 }
