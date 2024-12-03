@@ -34,18 +34,18 @@ public class GuiManager : MonoBehaviour
    void StartClicked() 
     {
        introGui.SetActive(false);
-        createButton.SetActive(true);
+    //   createButton.SetActive(true);
     }
 
     void CreateClicked()
     {
-        createButton.SetActive(false);
-        createGui.SetActive(true);
+      //  createButton.SetActive(false);
+     //   createGui.SetActive(true);
     }
 
     void CancelClicked()
     {
-        createButton.SetActive(true);
-        createGui.SetActive(false);
+     //   createButton.SetActive(true);
+     //   createGui.SetActive(false);
     }
 }

@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
+    <ImageTarget name="20241113_233353asfsfafsa-min" size="0.500000 0.667539" />
+    <ImageTarget name="20241111_232229-mindsasd" size="0.500000 0.667539" />
+    <ImageTarget name="20241111_232229-min" size="0.500000 0.667539" />
+    <ImageTarget name="20241111_231255-min" size="0.500000 0.670833" />
+    <ImageTarget name="JustFaceJaneAusten" size="0.500000 0.667539" />
+    <ImageTarget name="WhiteJaneAusten" size="0.500000 0.375000" />
     <ImageTarget name="JaneAusten10Note" size="0.500000 0.667539" />
   </Tracking>
 </QCARConfig>
