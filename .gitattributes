@@ -1,1 +1,2 @@
 Assets/Editor/Migration/com.ptc.vuforia.engine-10.27.3.tgz filter=lfs diff=lfs merge=lfs -text
+Assets/Editor/Migration/com.ptc.vuforia.engine-10.27.3.tgz.meta filter=lfs diff=lfs merge=lfs -text
